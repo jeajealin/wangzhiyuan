@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+.subpage_footer{ width:100%; height:240px; background:#333333; }
+
+.wzy_sub_top{ width:100%; max-width:2560px; line-height:150px; height:150px; background:url(../img/wzy_sub_topbg.jpg) top center no-repeat; background-size:center center;}
+
+
+.index_main{ width:100%; height:auto !important;
+background-color:#FFF; height:850px; min-height:850px; height:100%; overflow:auto;}
+
+.index_content{ width:1100px; height:auto; margin:0 auto;}
+
+/*-----inmaking_01-----*/
+.inmaking_01{ width:100%; height:300px; margin:0 auto; font-size:18px; text-align:center; line-height:300px;}
+
+/*-----artworks_01-----*/
+.artworks_01{ width:1100px; height:auto; padding:110px 0;}
+.artworks_01 ul{ margin-left:2px;}
+.artworks_01 li{ width:152px; float:left; margin:0 15px 15px 15px; display:inline;}
+.artworks_01 li b{ font-size:12px; line-height:20px; font-family: Verdana, Geneva, sans-serif; color: #000;}
+.artworks_01 li p{ font-size:12px;}
+
+
+/*-----biography_01-----*/
+.biography_01{ width:1080px; height:auto; padding:80px 10px; }
+.biography_01 h3{ font-size:14px; margin-bottom:20px; font-family: Verdana, Geneva, sans-serif;}
+.biography_01_photo{ width:1080px; height:20px; line-height:20px; background:#29221a; margin-bottom:20px;}
+.biography_01_photo a{ font-size:14px; color:#FFF; margin:0 15px; float:left;}
+.biography_01_photo b{ float:right; font-size:14px; color:#FFF; margin:0 15px; font-weight:400;}
+
+.biography_01 ul{ margin-left:30px;}
+.biography_01 li{ float:left; margin-bottom:30px;}
+.biography_01 li img{ float:left;}
+.biography_01 li span{ display:block; width:290px; height:auto; float:left;}
+.biography_01 li p{ font-family: Verdana, Geneva, sans-serif; font-size:12px; line-height:22px; margin-left:35px;}
+
+.biography_01 span img{ display:block; margin:0 auto; }
+
+/*------exhibitions_01-------*/
+.exhibitions_01{ width:1000px; height:auto; padding:80px 50px; }
+.exhibitions_01 h3{ font-size:14px; margin-bottom:50px; font-family: Verdana, Geneva, sans-serif;}
+.ex_pic{ width:1000px; margin-bottom:60px;}
+.exhibitions_01 h6{font-size:14px; font-weight:bold; font-family: Verdana, Geneva, sans-serif; margin-bottom:30px; margin-left:100px;}
+.exhibitions_01 ul{ display:block; width:800px; margin:0 auto;}
+.exhibitions_01 li{ border-bottom:2px dotted #333; padding:20px 0 26px 0;}
+.exhibitions_01 li p{ font-size:14px; font-family: Verdana, Geneva, sans-serif; float:left; }
+.exhibitions_01 li span{ display:block; width:14px; height:16px; float:left;}
+.exhibitions_01 li span a{ display:block; background:url(../image/go_botton_a.jpg) no-repeat 2px 3px; float:left;}
+.exhibitions_01 li span a:hover{ display:block; background:url(../image/go_botton_b.jpg) no-repeat 2px 3px;}
+.exhibitions_01 li b{ font-size:14px; font-weight:400; font-family: Verdana, Geneva, sans-serif; float:right; }
+
+/*--------texts_01----------*/
+.texts_01{ width:1000px; height:auto; padding:80px 50px; }
+.texts_01 h3{ font-size:14px; margin-bottom:50px; font-family: Verdana, Geneva, sans-serif;}
+.texts_01 ul{ display:block; width:800px; margin:0 auto;}
+.texts_01 li{ border-bottom:2px dotted #333; padding:15px 0;}
+.texts_01 li p{ font-size:14px; font-family: Verdana, Geneva, sans-serif; float:left; }
+.texts_01 li span{ display:block; width:14px; height:16px; float:left;}
+.texts_01 li span a{ display:block; background:url(../image/go_botton_a.jpg) no-repeat 2px 3px;}
+.texts_01 li span a:hover{ display:block; width:14px; height:16px; background:url(../image/go_botton_b.jpg) no-repeat 2px 3px;}
+.texts_01 li b{ font-size:14px; font-weight:400; font-family: Verdana, Geneva, sans-serif; float:right; }
+
+
+/*-----------Publication_01-------------*/
+.publication_01{ width:1000px; height:auto; padding:80px 50px; }
+.publication_01 h3{ font-size:14px; margin-bottom:50px; font-family: Verdana, Geneva, sans-serif;}
+
+/*----------------Videos_01---------------*/
+.videos_01{ width:1000px; height:auto; padding:80px 50px; }
+.videos_01 h3{ font-size:14px; margin-bottom:50px; font-family: Verdana, Geneva, sans-serif;}
+.videos_01 h6{font-size:14px; font-weight:bold; font-family: Verdana, Geneva, sans-serif; margin-bottom:30px; margin-left:100px;}
+.videos_01 ul{ display:block; width:800px; margin:0 auto;}
+.videos_01 li{ border-bottom:2px dotted #333; padding:20px 0 26px 0;}
+.videos_01 li p,.videos_01 li a{ font-size:14px; font-family: Verdana, Geneva, sans-serif; float:left; }
+.videos_01 li span{ font-size:14px; font-family: Verdana, Geneva, sans-serif; float:right; }
+
+
+/*-----subpage_muban-----*/
+.subpage_muban_box{ width:1000px; height:auto; padding:80px 50px;}
+.subpage_muban_box h3{ font-size:14px; margin-bottom:50px; font-family: Verdana, Geneva, sans-serif;}
+
+/*-----subpage_4_artworks_02_pic-----*/
+.subpage_muban_box h4{ font-size:14px; margin-bottom:5px; font-family: Verdana, Geneva, sans-serif;}
+.subpage_muban_box h5{ font-size:14px; margin-bottom:20px; font-weight:400; font-family: Verdana, Geneva, sans-serif;}
+.artworks_02_next{ width:85px; height:25px; margin:25px auto 40px auto;}
+.next_left{ width:26px; height:25px; float:left;}
+.next_left a{ display:block; background:url(../image/b_lift_a.jpg) no-repeat;}
+.next_left a:hover{ background:url(../image/b_lift_b.jpg) no-repeat;}
+.next_right{ width:26px; height:25px; float:right;}
+.next_right a{ display:block; background:url(../image/b_right_a.jpg) no-repeat;}
+.next_right a:hover{ background:url(../image/b_right_b.jpg) no-repeat;}
+.subpage_muban_box span img{ display:block; margin:0 auto; }
+
+
+/*------------exhibitions------------*/
+.exhibitions_01_type{ width:800px; height:auto; margin:55px auto 25px auto;}
+.exhibitions_01_type p{ font-size:12px; line-height:12px; margin-bottom:18px; font-family: Verdana, Geneva, sans-serif; font-weight:400;}
+.exhibitions_01_typeimg{ width:1000px; height:auto; margin:0 auto;}
+.exhibitions_01_typeimg span img{ display:block; margin:0 auto 20px auto; }
+
+.exhibitions_01_typeimg_800{ width:950px; height:auto;}
+.exhibitions_01_typeimg_800 span img{ display:block; margin:0 auto 20px 100px; }
+
+
+/*-----------text--------------*/
+.text_type{ width:800px; height:auto; margin:55px auto 25px auto;}
+.K{
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.E{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height:70px;
+}
+.text_type p{
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 22px;
+	font-weight:400;
+	margin-bottom:15px;
+}
+.H{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.M{
+	color: #000;
+	line-height:50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.N{
+	color: #000;
+	line-height:20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-right:95px;
+}
+.N_01{
+	display:block;
+	width:670px;
+	color: #000;
+	line-height:20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	float:left;
+	}
+.clear_N{ width:800px; height:25px; clear:both; font-size:0; margin:0; padding:0; line-height:0;}
+p.B{ font-size:12px; line-height:18px;}
+.table_p{ width:800px; height:auto;}
+.table_p p{ font-size:12px;}
+
+
+
+
+
+
+
+
