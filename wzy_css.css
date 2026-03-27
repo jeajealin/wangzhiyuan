@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*公共样式begin*/
+/*@media(max-width:1000px){body{background:#F00;}}
+@media(min-width:1920px){body{background:#000;}}*/
+body{
+	margin:0;
+	padding:0;
+	background:url(../img/wzy_bg.jpg) top center no-repeat;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size:cover;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#120a01;
+	}
+	
+.body_sub{background-size:contain;}
+ul,li{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	}
+h1,h2,h3,h4,h5,h6,p,img,form{
+	margin:0;
+	padding:0;
+	}
+img{
+	border:none;
+	}
+a{
+	color:#2c2220;
+	text-decoration:none;
+	}
+.clear{
+	clear:both;
+	margin:0;
+	padding:0;
+	line-height:0;
+	}
+			
+/*公共样式end*/
+
+/*index_top+footer begin*/
+.wzy_top{ width:100%; max-width:2560px; line-height:150px; height:150px;}
+.wzy_name{ float:left;}
+.wzy_name a{ font-size:45px; color:#FFF; line-height:150px; margin-left:70px;}
+.wzy_nav{ float:right; margin-right:30px;}
+.wzy_nav a{ font-size:16px; line-height:150px; color:#FFF; margin-right:37px;}
+#index_footer{ width:100%; padding-bottom:20px; background:#000; filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.6; position:absolute; bottom:0px; left:0px; }
+.footer_message_01,.footer_message_02,.footer_message_03,.footer_message_04{ width:16%; float:left; font-size:12px; padding-top:30px; color:#aaa; padding-left:8%;}
+.footer_message_02,.footer_message_03{ width:10%; padding-right:5%;}
+.footer_message_01 h3,.footer_message_02 h3,.footer_message_03 h3,.footer_message_04 h3{ line-height:35px; font-weight:400; }
+.footer_message_01 p,.footer_message_02 p,.footer_message_03 p,.footer_message_04 p{ line-height:20px; color:#aaa}
+.footer_message_01 a{ color:#FFF; font-weight:bold; line-height:30px;}
+
+/*index_top+footer end*/
+
+
+
+
+
