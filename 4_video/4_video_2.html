@@ -1,69 +1,142 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--meta name="viewport" content="width=dievice-wdith,initial-scale=1.0"-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>WANG ZHIYUAN</title>
-<link href="../css/subpage_artworks.css" rel="stylesheet" type="text/css" />
-<link href="../css/wzy_css.css" rel="stylesheet" type="text/css" />
-<script src="../css/subpage_js.js"></script>
 
+<link href="../css/subpage_artworks.css" rel="stylesheet">
+<link href="../css/wzy_css.css" rel="stylesheet">
+<script src="../js/subpage_js.js" defer></script>
 
-<style type="text/css">
+<style>
 .F {
-	display:block;
-	width:1000px;
-	margin-bottom:20px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	color: #000;
+    display: block;
+    width: 1000px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #000;
 }
 
+/* 视频封面样式（替代 iframe，更稳定） */
+.video-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
 
+.video-thumb {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.video-thumb img {
+    width: 100%;
+    display: block;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    opacity: 0.8;
+}
 </style>
 
 </head>
 
 <body id="zz" class="body_sub">
-<!--top begin-->
+
+<!-- top -->
 <div class="wzy_sub_top">
-	<div class="wzy_name"><a href="../index_wzy.html">WANG&nbsp;&nbsp;ZHIYUAN</a></div>
-    <div class="wzy_nav"><a href="../index_wzy.html">Home</a><a href="../2_floor/artworks_01.html">Artworks</a><a href="../2_floor/exhibitions_01.html">Exhibitions</a><a href="../2_floor/videos_01.html">Videos</a><a href="../2_floor/texts_01.html">Texts</a><a href="../2_floor/biography_01.html">Biography</a><a href="../2_floor/publication_01.html">Publication</a><a href="../2_floor/inmaking_01.html"></a></div>
+    <div class="wzy_name">
+        <a href="../index_wzy.html">WANG&nbsp;&nbsp;ZHIYUAN</a>
+    </div>
+
+    <div class="wzy_nav">
+        <a href="../index_wzy.html">Home</a>
+        <a href="../2_floor/artworks_01.html">Artworks</a>
+        <a href="../2_floor/exhibitions_01.html">Exhibitions</a>
+        <a href="../2_floor/videos_01.html">Videos</a>
+        <a href="../2_floor/texts_01.html">Texts</a>
+        <a href="../2_floor/biography_01.html">Biography</a>
+        <a href="../2_floor/publication_01.html">Publication</a>
+    </div>
+
     <div class="clear"></div>
 </div>
-<!--top end-->
 
+<!-- main -->
 <div id="index_main" class="index_main">
-	<div class="index_content">
-    	<!--Videos_01 begin-->
-    	<div class="subpage_muban_box">
-		  	<h4>Videos &gt; 2006</h4>
+    <div class="index_content">
+
+        <div class="subpage_muban_box">
+            <h4>Videos &gt; 2006</h4>
+
             <div class="text_type">
-                <p style="font-size:12px;">Singapore interview -WangZhiyuan</p>
-                <p style="display:block; width:800px; height:7px; border-bottom:2px dotted #666; margin-bottom:40px;"></p>
-                <p><iframe height="498" width="700" src="http://player.youku.com/embed/XNzU1NzkzODg4" frameborder="0" allowfullscreen></iframe></p>
+
+                <p style="font-size:12px;">
+                    Singapore interview - Wang Zhiyuan
+                </p>
+
+                <p style="width:800px; border-bottom:2px dotted #666; margin-bottom:40px;"></p>
+
+                <!-- 视频展示（稳定方案） -->
+                <div class="video-wrapper">
+                    <a href="https://www.youtube.com/watch?v=tIeWXTBCMGQ" target="_blank" class="video-thumb">
+                        <img src="https://img.youtube.com/vi/tIeWXTBCMGQ/hqdefault.jpg" alt="Video thumbnail">
+                        <div class="play-button">▶</div>
+                    </a>
+                </div>
+
             </div>
-            
-            
-    	</div>
-        <!--texts_01 end-->
-	</div>
+        </div>
+
+    </div>
+
     <div class="clear"></div>
 </div>
 
-<!--footer begin-->
+<!-- footer -->
 <div class="subpage_footer">
-    	<div class="footer_message_01"><h3>● CONTACT</h3></div>
 
-    	<div class="footer_message_02"><h3>Address</h3><p>WangZhiyuan Studio 798 Art District, 
-Chaoyang District Beijing, P.R.China</p><br><p>Sydney, Australia  </p></div>
-        <div class="footer_message_03"><h3>E-mail</h3><p>zyw798@gmail.com</p><br/><h3>Phone</h3><p>+86-13051055126(China)
-</p><p>+61-433855803(Australia)
-</p></div>
-        <div class="footer_message_04"><h3>www.wangzhiyuanart.com</h3><p style=" font-size:14px;">© 2026 WANGZHIYUAN</p></div>
-        <div class="clear"></div>
+    <div class="footer_message_01">
+        <h3>● CONTACT</h3>
+    </div>
+
+    <div class="footer_message_02">
+        <h3>Address</h3>
+        <p>
+            Wang Zhiyuan Studio<br>
+            798 Art District, Chaoyang District, Beijing, China
+        </p>
+        <br>
+        <p>Sydney, Australia</p>
+    </div>
+
+    <div class="footer_message_03">
+        <h3>E-mail</h3>
+        <p>zyw798@gmail.com</p>
+
+        <br>
+
+        <h3>Phone</h3>
+        <p>+86-13511077098 (China)</p>
+        <p>+61-433855803 (Australia)</p>
+    </div>
+
+    <div class="footer_message_04">
+        <h3>www.wangzhiyuanart.com</h3>
+        <p style="font-size:14px;">© 2026 WANGZHIYUAN</p>
+    </div>
+
+    <div class="clear"></div>
 </div>
-<!--footer end-->
 
 </body>
 </html>
